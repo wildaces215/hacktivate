@@ -57,12 +57,13 @@ declare module '$env/static/private' {
 	export const npm_config_local_prefix: string;
 	export const SYSTEMD_EXEC_PID: string;
 	export const DBUS_SESSION_BUS_ADDRESS: string;
-	export const npm_config_engine_strict: string;
 	export const COLORTERM: string;
 	export const LIBVIRT_DEFAULT_URI: string;
+	export const KONSOLE_DBUS_WINDOW: string;
 	export const COLOR: string;
 	export const DEBUGINFOD_URLS: string;
 	export const npm_config_metrics_registry: string;
+	export const MANDATORY_PATH: string;
 	export const IM_CONFIG_PHASE: string;
 	export const LOGNAME: string;
 	export const WINDOWID: string;
@@ -71,6 +72,7 @@ declare module '$env/static/private' {
 	export const _: string;
 	export const npm_config_prefix: string;
 	export const XDG_SESSION_CLASS: string;
+	export const DEFAULTS_PATH: string;
 	export const COLORFGBG: string;
 	export const TERM: string;
 	export const XDG_SESSION_ID: string;
@@ -176,12 +178,13 @@ declare module '$env/dynamic/private' {
 		npm_config_local_prefix: string;
 		SYSTEMD_EXEC_PID: string;
 		DBUS_SESSION_BUS_ADDRESS: string;
-		npm_config_engine_strict: string;
 		COLORTERM: string;
 		LIBVIRT_DEFAULT_URI: string;
+		KONSOLE_DBUS_WINDOW: string;
 		COLOR: string;
 		DEBUGINFOD_URLS: string;
 		npm_config_metrics_registry: string;
+		MANDATORY_PATH: string;
 		IM_CONFIG_PHASE: string;
 		LOGNAME: string;
 		WINDOWID: string;
@@ -190,6 +193,7 @@ declare module '$env/dynamic/private' {
 		_: string;
 		npm_config_prefix: string;
 		XDG_SESSION_CLASS: string;
+		DEFAULTS_PATH: string;
 		COLORFGBG: string;
 		TERM: string;
 		XDG_SESSION_ID: string;
